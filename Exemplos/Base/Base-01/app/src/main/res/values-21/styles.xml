@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Tema Basico do Material -->
+    <style name="AppTheme" parent="AppTheme.Base">
+
+    </style>
+
+</resources>
+
+

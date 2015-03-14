@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Tema Basico -->
+    <style name="AppTheme" parent="AppTheme.Base">
+
+    </style>
+
+    <!-- Compatibilidade do Tema -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light">
+
+    </style>
+
+</resources>
