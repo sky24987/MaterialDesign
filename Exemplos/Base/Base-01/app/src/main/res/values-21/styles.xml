@@ -2,7 +2,10 @@
 
     <!-- Tema Basico do Material -->
     <style name="AppTheme" parent="AppTheme.Base">
-
+        <item name="textColorPrimary">@color/cor_texto_primaria</item>
+        <item name="colorPrimary">@color/cor_primaria</item>
+        <item name="colorPrimaryDark">@color/cor_primaria_escura</item>
+        <item name="colorAccent">@color/cor_acentuda</item>
     </style>
 
 </resources>
