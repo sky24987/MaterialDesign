@@ -1,0 +1,6 @@
+<resources>
+    <color name="cor_primaria">#FFEB3B</color>
+    <color name="cor_primaria_escura">#FBC02D</color>
+    <color name="cor_acentuda">#50514F</color>
+    <color name="cor_fundo">#FFFFFF</color>
+</resources>
