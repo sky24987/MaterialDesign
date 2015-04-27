@@ -1,15 +1,15 @@
 <resources>
 
-    <!-- Tema Basico -->
-    <style name="AppTheme" parent="AppTheme.Base">
-
+    <style name="Theme.MyTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@android:color/white</item>
     </style>
 
-    <!-- Compatibilidade do Tema -->
-    <style name="AppTheme.Base" parent="Theme.AppCompat.NoActionBar">
-        <item name="colorPrimary">@color/cor_primaria</item>
-        <item name="colorPrimaryDark">@color/cor_primaria_escura</item>
-        <item name="colorAccent">@color/cor_acentuda</item>
+    <style name="TemaBarraCustomizada" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">#F00</item>
+        <item name="android:textColorSecondary">#00F</item>
     </style>
 
 </resources>

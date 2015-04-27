@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Tema Basico -->
+    <style name="AppTheme" parent="AppTheme.Base">
+
+    </style>
+
+    <!-- Compatibilidade do Tema -->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/cor_primaria</item>
+        <item name="colorPrimaryDark">@color/cor_primaria_escura</item>
+        <item name="colorAccent">@color/cor_acentuda</item>
+    </style>
+
+</resources>
