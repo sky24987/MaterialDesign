@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ToolBar-02</string>
+    <string name="next"></string>
+    <string name="hello_world">Olá Mundo Cruel</string>
+    <string name="greetings">Até que não é tão ruim assim</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="action_second_activity">SecondActivity</string>
+
+</resources>
+
