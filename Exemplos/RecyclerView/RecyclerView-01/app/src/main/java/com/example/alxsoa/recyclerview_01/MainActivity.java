@@ -1,56 +1,63 @@
 package com.example.alxsoa.recyclerview_01;
 
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.view.Menu;
-import android.view.MenuItem;
+import android.support.v7.widget.Toolbar;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends ActionBarActivity
 {
-    private RecyclerView recyclerView;
-    private RecyclerView.Adapter adapter;
-    private RecyclerView.LayoutManager layoutManager;
-    String[] dataArray = new String[]   {
-                                        "India",    "Australia",    "USA",
-                                        "U.K",      "Japan",        "Russia",
-                                        "Germany",  "Pakistan",     "Bangladesh",
-                                        "Africa",   "Brazil",       "Rome",
-                                        "italy"
-                                        };
+    private Toolbar mToolbar;
+    private Toolbar mToolbarBottom;
+
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-        recyclerView.setHasFixedSize(true);
 
-        layoutManager = new LinearLayoutManager(this);
-        recyclerView.setLayoutManager(layoutManager);
-        adapter = new RecyclerAdapter(dataArray);
-        recyclerView.setAdapter(adapter);
-    }
+        mToolbar = (Toolbar) findViewById(R.id.idWdgPrincipal);
+        mToolbar.setTitle("Lista de Planetas");
+        mToolbar.setSubtitle("Classificação");
+        mToolbar.setLogo(R.mipmap.ic_launcher);
+        setSupportActionBar(mToolbar);
 
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu)
-    {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item)
-    {
-        int id = item.getItemId();
-
-        if (id == R.id.action_settings)
+        PlanetaFragmento frag = (PlanetaFragmento) getSupportFragmentManager().findFragmentByTag("mainFrag");
+        if(frag == null)
         {
-            return true;
+            frag = new PlanetaFragmento();
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.idFrgContainer, frag, "mainFrag");
+            ft.commit();
         }
+    }
 
-        return super.onOptionsItemSelected(item);
+    public List<Planeta> GetSetPlaneta(int qtd)
+    {
+        String[] Planetas = new String[]  {
+                                            "Sol",      "Mercúrio",     "Vênus",
+                                            "Terra",    "Marte",        "Júpiter",
+                                            "Saturno",  "Urano",        "Netuno",
+                                            "Plutão"
+                                            };
+
+        String[] Classificacao = new String[]  {
+                                                "Estrela Gigante",      "Planetas telúricos",
+                                                "Planetas telúricos",   "Planetas telúricos",
+                                                "Planetas telúricos",   "Planetas gigantes",
+                                                "Planetas gigantes",    "Planetas gigantes",
+                                                "Planetas gigantes",    "Não é Planeta"
+                                                };
+
+        List<Planeta> listAux = new ArrayList<>();
+        for(int i = 0; i < qtd; i++)
+        {
+            Planeta c = new Planeta( Planetas[i % Planetas.length], Classificacao[ i % Classificacao.length ] );
+            listAux.add(c);
+        }
+        return(listAux);
     }
 }
