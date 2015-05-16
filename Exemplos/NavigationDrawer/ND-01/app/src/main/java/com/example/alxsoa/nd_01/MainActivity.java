@@ -7,7 +7,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import static com.example.alxsoa.nd_01.R.id.fragment_navigation_drawer;
+import com.example.alxsoa.nd_01.NavigationDrawerFragment;
 
 public class MainActivity extends ActionBarActivity
 {

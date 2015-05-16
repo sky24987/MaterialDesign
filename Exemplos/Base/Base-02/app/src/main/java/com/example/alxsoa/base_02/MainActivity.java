@@ -15,8 +15,8 @@ public class MainActivity extends ActionBarActivity
         setContentView(R.layout.activity_main);
 
         mtbMinhaBarra = (Toolbar) findViewById(R.id.tb_main);
-        mtbMinhaBarra.setTitle("Main Activity");
-        mtbMinhaBarra.setSubtitle("just a subtitle");
+        mtbMinhaBarra.setTitle("Janela Principal");
+        mtbMinhaBarra.setSubtitle("Um Sub-Título");
         mtbMinhaBarra.setLogo(R.drawable.ic_launcher);
         setSupportActionBar(mtbMinhaBarra);
     }

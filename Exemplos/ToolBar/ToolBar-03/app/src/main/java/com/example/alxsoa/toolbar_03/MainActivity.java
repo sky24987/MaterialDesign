@@ -22,8 +22,8 @@ public class MainActivity extends ActionBarActivity
         setContentView(R.layout.activity_main);
 
         mToolbar = (Toolbar) findViewById(R.id.idToolBarPrincipal);
-        mToolbar.setTitle("Main Activity");
-        mToolbar.setSubtitle("just a subtitle");
+        mToolbar.setTitle("Janela Principal");
+        mToolbar.setSubtitle("Um Sub-Título");
         mToolbar.setLogo(R.mipmap.ic_launcher);
         setSupportActionBar(mToolbar);
 
@@ -74,7 +74,7 @@ public class MainActivity extends ActionBarActivity
             @Override
             public void onClick(View v)
             {
-                Toast.makeText(MainActivity.this, "Settings pressed", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Configuração Pressionada", Toast.LENGTH_SHORT).show();
             }
         });
     }

@@ -20,42 +20,61 @@ public class MainActivity extends ActionBarActivity
         setContentView(R.layout.activity_main);
 
         mToolbar = (Toolbar) findViewById(R.id.idWdgPrincipal);
-        mToolbar.setTitle("Lista de Planetas");
-        mToolbar.setSubtitle("Classificação");
+        mToolbar.setTitle("Estados Brasileiros");
+        mToolbar.setSubtitle("Capitais");
         mToolbar.setLogo(R.mipmap.ic_launcher);
         setSupportActionBar(mToolbar);
 
-        PlanetaFragmento frag = (PlanetaFragmento) getSupportFragmentManager().findFragmentByTag("mainFrag");
+        EstadoFragmento frag = (EstadoFragmento) getSupportFragmentManager().findFragmentByTag("mainFrag");
         if(frag == null)
         {
-            frag = new PlanetaFragmento();
+            frag = new EstadoFragmento();
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
             ft.replace(R.id.idFrgContainer, frag, "mainFrag");
             ft.commit();
         }
     }
 
-    public List<Planeta> GetSetPlaneta(int qtd)
+    public List<Estado> GetSetPlaneta(int qtd)
     {
         String[] Planetas = new String[]  {
-                                            "Sol",      "Mercúrio",     "Vênus",
-                                            "Terra",    "Marte",        "Júpiter",
-                                            "Saturno",  "Urano",        "Netuno",
-                                            "Plutão"
+                                            "Acre",                     "Alagoas",
+                                            "Amapá",                    "Amazonas",
+                                            "Bahia",                    "Ceará",
+                                            "Distrito Federal",         "Espírito Santo",
+                                            "Goiás",                    "Maranhão",
+                                            "Mato Grosso",              "Mato Grosso do Sul",
+                                            "Minas Gerais",             "Pará",
+                                            "Paraíba",                  "Paraná",
+                                            "Pernambuco",               "Piauí",
+                                            "Rio de Janeiro",           "Rio Grande do Norte",
+                                            "Rio Grande do Sul",        "Rondônia",
+                                            "Roraima",                  "Santa Catarina",
+                                            "São Paulo",                "Sergipe",
+                                            "Tocantins"
                                             };
 
         String[] Classificacao = new String[]  {
-                                                "Estrela Gigante",      "Planetas telúricos",
-                                                "Planetas telúricos",   "Planetas telúricos",
-                                                "Planetas telúricos",   "Planetas gigantes",
-                                                "Planetas gigantes",    "Planetas gigantes",
-                                                "Planetas gigantes",    "Não é Planeta"
+                                                "Rio Branco",           "Maceió",
+                                                "Macapá",               "Manaus",
+                                                "Salvador",             "Fortaleza",
+                                                "Brasília",             "Vitória",
+                                                "Goiânia",              "São Luís",
+                                                "Cuiabá",               "Campo Grande",
+                                                "Belo Horizonte",       "Belém",
+                                                "João Pessoa",          "Curitiba",
+                                                "Recife",               "Teresina",
+                                                "Rio de Janeiro",       "Natal",
+                                                "Porto Alegre",         "Porto Velho",
+                                                "Boa Vista",            "Florianópolis",
+                                                "São Paulo",            "Aracaju",
+                                                "Palmas"
                                                 };
 
-        List<Planeta> listAux = new ArrayList<>();
-        for(int i = 0; i < qtd; i++)
+        List<Estado> listAux = new ArrayList<>();
+        for(int i = 0; i < 27; i++)
         {
-            Planeta c = new Planeta( Planetas[i % Planetas.length], Classificacao[ i % Classificacao.length ] );
+            Estado c = new Estado( Planetas[i % Planetas.length], Classificacao[ i % Classificacao.length ] );
             listAux.add(c);
         }
         return(listAux);

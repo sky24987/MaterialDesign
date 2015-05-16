@@ -16,7 +16,7 @@ public class SecondActivity extends ActionBarActivity
         setContentView(R.layout.activity_second);
 
         mToolbar = (Toolbar) findViewById(R.id.idToolBarPrincipal);
-        mToolbar.setTitle("Second Activity");
+        mToolbar.setTitle("Janela Secundária");
         setSupportActionBar(mToolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }

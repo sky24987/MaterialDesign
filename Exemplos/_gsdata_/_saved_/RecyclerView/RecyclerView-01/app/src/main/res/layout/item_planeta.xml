@@ -1,0 +1,36 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingLeft="16dp">
+
+    <TextView
+        android:textColor="@color/colorPrimarytext"
+        android:id="@+id/idTxtPlaneta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:paddingRight="16dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:textColor="@color/colorPrimarytext"
+        android:layout_below="@+id/idTxtPlaneta"
+        android:layout_alignLeft="@+id/idTxtPlaneta"
+        android:id="@+id/idTxtClassificacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="16dp"
+        android:textSize="12sp" />
+
+    <View
+        android:id="@+id/idLinhaDiv"
+        android:layout_marginTop="20dp"
+        android:layout_alignLeft="@+id/idTxtPlaneta"
+        android:layout_below="@+id/idTxtClassificacao"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp" />
+
+</RelativeLayout>
