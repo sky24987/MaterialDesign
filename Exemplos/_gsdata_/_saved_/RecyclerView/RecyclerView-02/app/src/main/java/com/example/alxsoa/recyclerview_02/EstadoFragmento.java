@@ -8,6 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
+import com.example.alxsoa.recyclerview_02.MainActivity;
 
 import java.util.List;
 
@@ -41,6 +42,16 @@ public class EstadoFragmento extends Fragment implements RecyclerViewOnClickList
                 super.onScrolled(recyclerView, dx, dy);
                 LinearLayoutManager llm = (LinearLayoutManager) mRecyclerView.getLayoutManager();
                 EstadoAdapter adapter = (EstadoAdapter) mRecyclerView.getAdapter();
+
+                if (mList.size() == llm.findLastCompletelyVisibleItemPosition() + 1)
+                {
+                    List<Estado> listAux = ((MainActivity) getActivity()).GetSetEstadoList(10);
+
+                    for (int i = 0; i < listAux.size(); i++) {
+                        adapter.addListItem(listAux.get(i), mList.size());
+                    }
+                }
+
             }
         });
 

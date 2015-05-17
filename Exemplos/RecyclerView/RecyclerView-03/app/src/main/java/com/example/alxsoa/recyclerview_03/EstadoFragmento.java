@@ -1,4 +1,4 @@
-package com.example.alxsoa.recyclerview_02;
+package com.example.alxsoa.recyclerview_03;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -60,6 +60,8 @@ public class EstadoFragmento extends Fragment implements RecyclerViewOnClickList
     public void onClickListener(View view, int position)
     {
         Toast.makeText(getActivity(), "Posição na Lista: "+position, Toast.LENGTH_SHORT).show();
+        EstadoAdapter adapter = (EstadoAdapter) mRecyclerView.getAdapter();
+        adapter.removeListItem(position);
     }
 
 }
