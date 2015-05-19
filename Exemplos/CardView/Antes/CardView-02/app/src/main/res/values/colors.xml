@@ -1,0 +1,12 @@
+<resources>
+    <color name="cor_texto_primaria">#FFFFFF</color>
+    <color name="cor_primaria">#3F51B5</color>
+    <color name="cor_primaria_escura">#303F9F</color>
+    <color name="cor_acentuda">#FF4081</color>
+    <color name="cor_acentuada_escura">#F50057</color>
+    <color name="cor_acentuada_selecao">#FF80AB</color>
+
+    <color name="text_dark">#333333</color>
+    <color name="text_medium">#555555</color>
+    <color name="text_light">#888888</color>
+</resources>
