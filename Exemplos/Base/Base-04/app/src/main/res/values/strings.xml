@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Base-04</string>
+
+    <string name="hello_world">Oi Mundo Cruel</string>
+    <string name="action_settings">Settings</string>
+</resources>
