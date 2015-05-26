@@ -1,0 +1,35 @@
+2015-05-25 21:01:32: -- Analysis Started by User
+2015-05-25 21:01:50: /ToolBar/ToolBar-04/app/src/main/AndroidManifest.xml: Warning: Older file to replace Newer file
+2015-05-25 21:01:50: /ToolBar/ToolBar-04/app/src/main/java/com/example/alxsoa/toolbar_04/MainActivity.java: Warning: Older file to replace Newer file
+2015-05-25 21:01:50: /ToolBar/ToolBar-04/app/src/main/res/layout/activity_main.xml: Warning: Older file to replace Newer file
+2015-05-25 21:01:50: /ToolBar/ToolBar-04/app/src/main/res/layout/tool_bar.xml: Warning: Older file to replace Newer file
+2015-05-25 21:01:50: /ToolBar/ToolBar-04/app/src/main/res/values/color.xml: Warning: Older file to replace Newer file
+2015-05-25 21:01:50: /ToolBar/ToolBar-04/app/src/main/res/values/styles.xml: Warning: Older file to replace Newer file
+2015-05-25 21:01:50: /ToolBar/ToolBar-05/app/src/main/java/com/example/alxsoa/toolbar_05/MainActivity.java: Warning: Older file to replace Newer file
+2015-05-25 21:01:50: /ToolBar/ToolBar-05/app/src/main/res/layout/activity_main.xml: Warning: Older file to replace Newer file
+2015-05-25 21:01:50: /ToolBar/ToolBar-05/app/src/main/res/layout/tool_bar.xml: Warning: Older file to replace Newer file
+2015-05-25 21:01:50: /ToolBar/ToolBar-05/app/src/main/res/values/color.xml: Warning: Older file to replace Newer file
+2015-05-25 21:01:50: /ToolBar/ToolBar-05/app/src/main/res/values/styles.xml: Warning: Older file to replace Newer file
+2015-05-25 21:01:50: Changes: 16, Conflicts: 0, CopyTime: 0, CopyState: 0/11411, Errors: 0, All: 94404
+2015-05-25 21:01:50: Left to Right: Copy File: 16 
+2015-05-25 21:01:50: -- Analysis Complete. Time 00:00:18, Speed: 1842 files/s
+2015-05-25 21:01:50: 
+2015-05-25 21:01:54: == Sync Started by User
+2015-05-25 21:01:56: Create Folder '/Users/alxsoa/Work/Desenvolvimento/MaterialDesign/Exemplos/ToolBar/ToolBar-04/app/src/main/res/values-v21'
+2015-05-25 21:01:56: Create Folder '/Users/alxsoa/Work/Desenvolvimento/MaterialDesign/Exemplos/ToolBar/ToolBar-05/app/src/main/res/values-v21'
+2015-05-25 21:01:56: Copy New '/Users/alxsoa/Desktop/Curso de Material Design/Exemplos/CardView/CardView-01/app/src/main/res/values/styles.xml' -> '/Users/alxsoa/Work/Desenvolvimento/MaterialDesign/Exemplos/CardView/CardView-01/app/src/main/res/values/styles.xml'
+2015-05-25 21:01:56: Copy Over '/Users/alxsoa/Desktop/Curso de Material Design/Exemplos/ToolBar/ToolBar-04/app/src/main/AndroidManifest.xml' -> '/Users/alxsoa/Work/Desenvolvimento/MaterialDesign/Exemplos/ToolBar/ToolBar-04/app/src/main/AndroidManifest.xml'
+2015-05-25 21:01:57: Copy Over '/Users/alxsoa/Desktop/Curso de Material Design/Exemplos/ToolBar/ToolBar-04/app/src/main/java/com/example/alxsoa/toolbar_04/MainActivity.java' -> '/Users/alxsoa/Work/Desenvolvimento/MaterialDesign/Exemplos/ToolBar/ToolBar-04/app/src/main/java/com/example/alxsoa/toolbar_04/MainActivity.java'
+2015-05-25 21:01:57: Copy Over '/Users/alxsoa/Desktop/Curso de Material Design/Exemplos/ToolBar/ToolBar-04/app/src/main/res/layout/activity_main.xml' -> '/Users/alxsoa/Work/Desenvolvimento/MaterialDesign/Exemplos/ToolBar/ToolBar-04/app/src/main/res/layout/activity_main.xml'
+2015-05-25 21:01:57: Copy Over '/Users/alxsoa/Desktop/Curso de Material Design/Exemplos/ToolBar/ToolBar-04/app/src/main/res/layout/tool_bar.xml' -> '/Users/alxsoa/Work/Desenvolvimento/MaterialDesign/Exemplos/ToolBar/ToolBar-04/app/src/main/res/layout/tool_bar.xml'
+2015-05-25 21:01:57: Copy Over '/Users/alxsoa/Desktop/Curso de Material Design/Exemplos/ToolBar/ToolBar-04/app/src/main/res/values/color.xml' -> '/Users/alxsoa/Work/Desenvolvimento/MaterialDesign/Exemplos/ToolBar/ToolBar-04/app/src/main/res/values/color.xml'
+2015-05-25 21:01:57: Copy Over '/Users/alxsoa/Desktop/Curso de Material Design/Exemplos/ToolBar/ToolBar-04/app/src/main/res/values/styles.xml' -> '/Users/alxsoa/Work/Desenvolvimento/MaterialDesign/Exemplos/ToolBar/ToolBar-04/app/src/main/res/values/styles.xml'
+2015-05-25 21:01:57: Copy New '/Users/alxsoa/Desktop/Curso de Material Design/Exemplos/ToolBar/ToolBar-04/app/src/main/res/values-v21/styles.xml' -> '/Users/alxsoa/Work/Desenvolvimento/MaterialDesign/Exemplos/ToolBar/ToolBar-04/app/src/main/res/values-v21/styles.xml'
+2015-05-25 21:01:57: Copy Over '/Users/alxsoa/Desktop/Curso de Material Design/Exemplos/ToolBar/ToolBar-05/app/src/main/java/com/example/alxsoa/toolbar_05/MainActivity.java' -> '/Users/alxsoa/Work/Desenvolvimento/MaterialDesign/Exemplos/ToolBar/ToolBar-05/app/src/main/java/com/example/alxsoa/toolbar_05/MainActivity.java'
+2015-05-25 21:01:57: Copy Over '/Users/alxsoa/Desktop/Curso de Material Design/Exemplos/ToolBar/ToolBar-05/app/src/main/res/layout/activity_main.xml' -> '/Users/alxsoa/Work/Desenvolvimento/MaterialDesign/Exemplos/ToolBar/ToolBar-05/app/src/main/res/layout/activity_main.xml'
+2015-05-25 21:01:57: Copy Over '/Users/alxsoa/Desktop/Curso de Material Design/Exemplos/ToolBar/ToolBar-05/app/src/main/res/layout/tool_bar.xml' -> '/Users/alxsoa/Work/Desenvolvimento/MaterialDesign/Exemplos/ToolBar/ToolBar-05/app/src/main/res/layout/tool_bar.xml'
+2015-05-25 21:01:57: Copy Over '/Users/alxsoa/Desktop/Curso de Material Design/Exemplos/ToolBar/ToolBar-05/app/src/main/res/values/color.xml' -> '/Users/alxsoa/Work/Desenvolvimento/MaterialDesign/Exemplos/ToolBar/ToolBar-05/app/src/main/res/values/color.xml'
+2015-05-25 21:01:57: Copy Over '/Users/alxsoa/Desktop/Curso de Material Design/Exemplos/ToolBar/ToolBar-05/app/src/main/res/values/styles.xml' -> '/Users/alxsoa/Work/Desenvolvimento/MaterialDesign/Exemplos/ToolBar/ToolBar-05/app/src/main/res/values/styles.xml'
+2015-05-25 21:01:57: Copy New '/Users/alxsoa/Desktop/Curso de Material Design/Exemplos/ToolBar/ToolBar-05/app/src/main/res/values-v21/styles.xml' -> '/Users/alxsoa/Work/Desenvolvimento/MaterialDesign/Exemplos/ToolBar/ToolBar-05/app/src/main/res/values-v21/styles.xml'
+2015-05-25 21:02:04: == Sync Complete. Time: 00:00:10, Speed: 1.9 MB/s, OK: 11427, Errors: 0
+2015-05-25 21:02:04: 
